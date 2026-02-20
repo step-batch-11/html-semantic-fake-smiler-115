@@ -63,3 +63,32 @@ img {
   width: 50vw;
   height: 50vh;
 }
+
+footer h5 {
+  margin-bottom: 0px;
+margin-top: 0px;
+}
+
+details {
+  width : 15vw;
+  border: 1px solid #888;
+  border-radius: 5px;
+}
+
+summary {
+  margin: 1.3em;
+  text-align: left;
+}
+
+details[open] summary {
+  margin-top: -0.2em;
+  border-bottom: 1px solid #888;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+aside {
+  text-align: right;
+}
