@@ -46,6 +46,27 @@ nav {
   gap: 20px;
 }
 
+details {
+  background-color: rgba(22, 175, 134, 0.5);
+  width : 20%;
+  border : 1px solid gray;
+}
+details p {
+  line-height: 0.1em;
+}
+
+summary {
+  text-align: center;
+}
+
+details summary:hover {
+  cursor: pointer;
+}
+
+details[open] summary {
+  border-bottom: 1px solid gray;
+}
+
 nav a {
   text-decoration: none;
   color: #065f46;
@@ -85,6 +106,10 @@ mark {
 
 figure {
   margin: 25px 0;
+}
+
+aside {
+  text-align: right;
 }
 
 img {
